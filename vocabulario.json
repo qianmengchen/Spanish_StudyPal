@@ -1,1 +1,410 @@
-{"despacio": {"proficiency": 0, "EN": "slowly"}, "ejemplo": {"proficiency": 0, "EN": "example"}, "criar": {"proficiency": 0, "EN": "raise"}, "vario": {"proficiency": 0, "EN": "several"}, "gallina": {"proficiency": 0, "EN": "hen"}, "sabroso": {"proficiency": 0, "EN": "tasty"}, "palillo": {"proficiency": 0, "EN": "stick"}, "demasiado": {"proficiency": 0, "EN": "too"}, "hambre": {"proficiency": 0, "EN": "hunger"}, "amargo": {"proficiency": 0, "EN": "bitter"}, "darse prisa": {"proficiency": 0, "EN": "hurry up"}, "picante": {"proficiency": 0, "EN": "spicy"}, "cuchara": {"proficiency": 0, "EN": "spoon"}, "satisfecho": {"proficiency": 0, "EN": "satisfied"}, "soso": {"proficiency": 0, "EN": "insipid"}, "taz\u00f3n": {"proficiency": 0, "EN": "bowl"}, "cosecha": {"proficiency": 0, "EN": "harvest"}, "gallo": {"proficiency": 0, "EN": "rooster"}, "provincia": {"proficiency": 0, "EN": "province"}, "igualmente": {"proficiency": 0, "EN": "equally"}, "plato": {"proficiency": 0, "EN": "dish"}, "t\u00e9": {"proficiency": 0, "EN": "tea"}, "preferir": {"proficiency": 0, "EN": "prefer"}, "torta": {"proficiency": 0, "EN": "cake"}, "cola": {"proficiency": 0, "EN": "tail"}, "sabor": {"proficiency": 0, "EN": "taste"}, "gordo": {"proficiency": 0, "EN": "fat"}, "az\u00facar": {"proficiency": 0, "EN": "sugar"}, "mermelada": {"proficiency": 0, "EN": "jam"}, "queso": {"proficiency": 0, "EN": "cheese"}, "consumir": {"proficiency": 0, "EN": "consume"}, "ni": {"proficiency": 0, "EN": "nor"}, "harina": {"proficiency": 0, "EN": "flour"}, "res": {"proficiency": 0, "EN": "beef"}, "suerte": {"proficiency": 0, "EN": "fate"}, "salado": {"proficiency": 0, "EN": "salty"}, "cereal": {"proficiency": 0, "EN": "cereal"}, "provecho": {"proficiency": 0, "EN": "advantage"}, "trigo": {"proficiency": 0, "EN": "wheat"}, "\u00a1caramba!": {"proficiency": 0, "EN": "gee!"}, "pepino": {"proficiency": 0, "EN": "cucumber"}, "dulce": {"proficiency": 0, "EN": "sweet"}, "col": {"proficiency": 0, "EN": "cabbage"}, "producir": {"proficiency": 0, "EN": "produce"}, "norte": {"proficiency": 0, "EN": "north"}, "cerdo": {"proficiency": 0, "EN": "pig"}, "tierra": {"proficiency": 0, "EN": "earth"}, "por ejemplo": {"proficiency": 0, "EN": "for example"}, "menajar": {"proficiency": 0, "EN": "manage"}, "tenedor": {"proficiency": 0, "EN": "fork"}, "patata": {"proficiency": 0, "EN": "potato"}, "\u00e1cido": {"proficiency": 0, "EN": "acid"}, "bastante": {"proficiency": 0, "EN": "enough"}, "mantequilla": {"proficiency": 0, "EN": "butter"}}
+{
+    "afuera": {
+        "EN": "outside",
+        "proficiency": 0
+    },
+    "amargo": {
+        "EN": "bitter",
+        "proficiency": 0
+    },
+    "aspecto": {
+        "EN": "appearance",
+        "proficiency": 0
+    },
+    "auscultar": {
+        "EN": "auscultate",
+        "proficiency": 0
+    },
+    "az\u00facar": {
+        "EN": "sugar",
+        "proficiency": 0
+    },
+    "bastante": {
+        "EN": "enough",
+        "proficiency": 0
+    },
+    "boca": {
+        "EN": "mouth",
+        "proficiency": 0
+    },
+    "caer": {
+        "EN": "fall",
+        "proficiency": 0
+    },
+    "cerdo": {
+        "EN": "pig",
+        "proficiency": 0
+    },
+    "cereal": {
+        "EN": "cereal",
+        "proficiency": 0
+    },
+    "col": {
+        "EN": "cabbage",
+        "proficiency": 0
+    },
+    "cola": {
+        "EN": "tail",
+        "proficiency": 0
+    },
+    "consumir": {
+        "EN": "consume",
+        "proficiency": 0
+    },
+    "cosecha": {
+        "EN": "harvest",
+        "proficiency": 0
+    },
+    "criar": {
+        "EN": "raise",
+        "proficiency": 0
+    },
+    "cuchara": {
+        "EN": "spoon",
+        "proficiency": 0
+    },
+    "darse prisa": {
+        "EN": "hurry up",
+        "proficiency": 0
+    },
+    "da\u00f1ado": {
+        "EN": "damaged",
+        "proficiency": 0
+    },
+    "demasiado": {
+        "EN": "too",
+        "proficiency": 0
+    },
+    "dentista": {
+        "EN": "dentist",
+        "proficiency": 0
+    },
+    "despacio": {
+        "EN": "slowly",
+        "proficiency": 0
+    },
+    "despertarse": {
+        "EN": "wake up",
+        "proficiency": 0
+    },
+    "dulce": {
+        "EN": "sweet",
+        "proficiency": 0
+    },
+    "durante": {
+        "EN": "during",
+        "proficiency": 0
+    },
+    "d\u00e9bil": {
+        "EN": "weak",
+        "proficiency": 0
+    },
+    "d\u00f3lar": {
+        "EN": "dollar",
+        "proficiency": 0
+    },
+    "ejemplo": {
+        "EN": "example",
+        "proficiency": 0
+    },
+    "examinar": {
+        "EN": "examine",
+        "proficiency": 0
+    },
+    "farmacia": {
+        "EN": "pharmacy",
+        "proficiency": 0
+    },
+    "fiebre": {
+        "EN": "fever",
+        "proficiency": 0
+    },
+    "gallina": {
+        "EN": "hen",
+        "proficiency": 0
+    },
+    "gallo": {
+        "EN": "rooster",
+        "proficiency": 0
+    },
+    "gana": {
+        "EN": "desire",
+        "proficiency": 0
+    },
+    "garganta": {
+        "EN": "throat",
+        "proficiency": 0
+    },
+    "gordo": {
+        "EN": "fat",
+        "proficiency": 0
+    },
+    "grado": {
+        "EN": "degree",
+        "proficiency": 0
+    },
+    "grave": {
+        "EN": "serious",
+        "proficiency": 0
+    },
+    "guardar": {
+        "EN": "save",
+        "proficiency": 0
+    },
+    "guardar cama": {
+        "EN": "stay in bed",
+        "proficiency": 0
+    },
+    "hambre": {
+        "EN": "hunger",
+        "proficiency": 0
+    },
+    "harina": {
+        "EN": "flour",
+        "proficiency": 0
+    },
+    "igualmente": {
+        "EN": "equally",
+        "proficiency": 0
+    },
+    "inyecci\u00f3n": {
+        "EN": "injection",
+        "proficiency": 0
+    },
+    "jefe": {
+        "EN": "boss",
+        "proficiency": 0
+    },
+    "ligero": {
+        "EN": "light",
+        "proficiency": 0
+    },
+    "malestar": {
+        "EN": "discomfort",
+        "proficiency": 0
+    },
+    "mantequilla": {
+        "EN": "butter",
+        "proficiency": 0
+    },
+    "medicina": {
+        "EN": "medicine",
+        "proficiency": 0
+    },
+    "menajar": {
+        "EN": "manage",
+        "proficiency": 0
+    },
+    "mermelada": {
+        "EN": "jam",
+        "proficiency": 0
+    },
+    "m\u00e9dico": {
+        "EN": "doctor",
+        "proficiency": 0
+    },
+    "nariz": {
+        "EN": "nose",
+        "proficiency": 0
+    },
+    "ni": {
+        "EN": "nor",
+        "proficiency": 0
+    },
+    "norte": {
+        "EN": "north",
+        "proficiency": 0
+    },
+    "oye": {
+        "EN": "here",
+        "proficiency": 0
+    },
+    "palillo": {
+        "EN": "stick",
+        "proficiency": 0
+    },
+    "patata": {
+        "EN": "potato",
+        "proficiency": 0
+    },
+    "pecho": {
+        "EN": "chest",
+        "proficiency": 0
+    },
+    "pedir permiso": {
+        "EN": "ask for permission",
+        "proficiency": 0
+    },
+    "pepino": {
+        "EN": "cucumber",
+        "proficiency": 0
+    },
+    "permiso": {
+        "EN": "permission",
+        "proficiency": 0
+    },
+    "picante": {
+        "EN": "spicy",
+        "proficiency": 0
+    },
+    "plato": {
+        "EN": "dish",
+        "proficiency": 0
+    },
+    "pobre": {
+        "EN": "poor",
+        "proficiency": 0
+    },
+    "por ejemplo": {
+        "EN": "for example",
+        "proficiency": 0
+    },
+    "precio": {
+        "EN": "price",
+        "proficiency": 0
+    },
+    "preferir": {
+        "EN": "prefer",
+        "proficiency": 0
+    },
+    "producir": {
+        "EN": "produce",
+        "proficiency": 0
+    },
+    "profundo": {
+        "EN": "deep",
+        "proficiency": 0
+    },
+    "provecho": {
+        "EN": "advantage",
+        "proficiency": 0
+    },
+    "provincia": {
+        "EN": "province",
+        "proficiency": 0
+    },
+    "queso": {
+        "EN": "cheese",
+        "proficiency": 0
+    },
+    "quitarse": {
+        "EN": "take off",
+        "proficiency": 0
+    },
+    "recetar": {
+        "EN": "prescribe",
+        "proficiency": 0
+    },
+    "registrar": {
+        "EN": "register",
+        "proficiency": 0
+    },
+    "res": {
+        "EN": "beef",
+        "proficiency": 0
+    },
+    "resfriado": {
+        "EN": "cold",
+        "proficiency": 0
+    },
+    "respirar": {
+        "EN": "breathe",
+        "proficiency": 0
+    },
+    "sabor": {
+        "EN": "taste",
+        "proficiency": 0
+    },
+    "sabroso": {
+        "EN": "tasty",
+        "proficiency": 0
+    },
+    "sacar": {
+        "EN": "take",
+        "proficiency": 0
+    },
+    "salado": {
+        "EN": "salty",
+        "proficiency": 0
+    },
+    "satisfecho": {
+        "EN": "satisfied",
+        "proficiency": 0
+    },
+    "seguir": {
+        "EN": "follow",
+        "proficiency": 0
+    },
+    "seguro": {
+        "EN": "sure",
+        "proficiency": 0
+    },
+    "soso": {
+        "EN": "insipid",
+        "proficiency": 0
+    },
+    "sucio": {
+        "EN": "dirty",
+        "proficiency": 0
+    },
+    "suerte": {
+        "EN": "fate",
+        "proficiency": 0
+    },
+    "tableta": {
+        "EN": "tablet",
+        "proficiency": 0
+    },
+    "taz\u00f3n": {
+        "EN": "bowl",
+        "proficiency": 0
+    },
+    "tenedor": {
+        "EN": "fork",
+        "proficiency": 0
+    },
+    "term\u00f3metro": {
+        "EN": "thermometer",
+        "proficiency": 0
+    },
+    "tierra": {
+        "EN": "earth",
+        "proficiency": 0
+    },
+    "torta": {
+        "EN": "cake",
+        "proficiency": 0
+    },
+    "toser": {
+        "EN": "cough",
+        "proficiency": 0
+    },
+    "trigo": {
+        "EN": "wheat",
+        "proficiency": 0
+    },
+    "tupido": {
+        "EN": "thick",
+        "proficiency": 0
+    },
+    "t\u00e9": {
+        "EN": "tea",
+        "proficiency": 0
+    },
+    "vario": {
+        "EN": "several",
+        "proficiency": 0
+    },
+    "viento": {
+        "EN": "wind",
+        "proficiency": 0
+    },
+    "\u00a1caramba!": {
+        "EN": "gee!",
+        "proficiency": 0
+    },
+    "\u00e1cido": {
+        "EN": "acid",
+        "proficiency": 0
+    }
+}

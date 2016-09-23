@@ -88,22 +88,22 @@ def check(cards):
 def review(data):
 	cards = randomly_choose(copy.deepcopy(data))
 	while(not check(cards)):
-		items = cards.items()
-		random.shuffle(items)
-		for key, value in items: 
-			if value["pass"]:
+		keys = list(cards.keys())
+		random.shuffle(keys)
+		for key in keys: 
+			if cards[key]["pass"]:
 				continue
 			cards[key]["num"] += 1
 			if(random.random() < .5):
 				os.system("say -v Monica "+key)
 				guess = input(key+" in English: ")
-				if guess == value["EN"]:
+				if guess == cards[key]["EN"]:
 					print("Correct!")
 					cards[key]["pass"] = True
 				else:
-					print("No! The answer is "+value["EN"])
+					print("No! The answer is "+cards[key]["EN"])
 			else:
-				guess = input(value["EN"]+" en español: ")
+				guess = input(data[key]["EN"]+" en español: ")
 				os.system("say -v Monica "+key)
 				if guess == key:
 					print("Correct!")
@@ -127,11 +127,13 @@ def main():
 		data = update(data)
 	elif choice == 'r' or choice == 'review':
 		data = review(data)
+	elif choice == 'num':
+		print(len(data))
 	else:
 		print("Bad Input")
 
 	with open(datafile, "w") as f:
-		json.dump(data, f)
+		json.dump(data, f, sort_keys=True, indent=4)
 	print("Goodbye!")
 
 main()
