@@ -4,21 +4,28 @@ import os
 import random
 import copy
 
-datafile = "vocabulario.json"
+config = {}
+
+with open("config.json", "r") as f:
+	config = json.load(f)
 
 def init():
-	with open(datafile, "r") as f:
+	with open(config["vocabPath"], "r") as f:
 		data = json.load(f)
 		return data
 
 def update(data):
+	print("Before adding another box of cards, I recommand you try \'status\' to know if it is now a good time to go on.")
+	print("When finish adding, enter \'q\' for new "+config["learning"]+" word.")
 	while True:
-		es = input("New spanish word: ").lower()
+		es = input("New "+config["learning"]+" word: ").lower()
 		if es == 'q':
 			break
 		data[es] = {'proficiency': 0}
-		en = input("The English meaning of "+es+": ").lower()
+		en = input("The "+config["from"]+" meaning of "+es+": ").lower()
 		data[es]["EN"] = en
+		if len(data) % config["boxSize"] == 0:
+			print("It is now another box.")
 	return data
 
 def filt(data):
@@ -47,36 +54,41 @@ def randomly_choose(data):
 	rare = medium_rare = medium = medium_well = well_done = 0
 	count = 0
 	filtered = filt(data)
-	while (rare < 40 and len(filtered["rare"]) > 0):
+	while (rare < config["rare"] and len(filtered["rare"]) > 0):
 		key = random.sample(filtered["rare"].keys(), 1)[0]
 		cards[key] = filtered["rare"][key]
 		cards[key]["num"] = 0
 		cards[key]["pass"] = False
 		del filtered["rare"][key]
-	while (rare < 30 and len(filtered["medium_rare"]) > 0):
+		rare += 1
+	while (medium_rare < config["medium_rare"] and len(filtered["medium_rare"]) > 0):
 		key = random.sample(filtered["medium_rare"].keys(), 1)[0]
 		cards[key] = filtered["medium_rare"][key]
 		cards[key]["num"] = 0
 		cards[key]["pass"] = False
 		del filtered["medium_rare"][key]
-	while (rare < 15 and len(filtered["medium"]) > 0):
+		medium_rare += 1
+	while (medium < config["medium"] and len(filtered["medium"]) > 0):
 		key = random.sample(filtered["medium"].keys(), 1)[0]
 		cards[key] = filtered["medium"][key]
 		cards[key]["num"] = 0
 		cards[key]["pass"] = False
 		del filtered["medium"][key]
-	while (rare < 10 and len(filtered["medium_well"]) > 0):
+		medium += 1 
+	while (medium_well < config["medium_well"] and len(filtered["medium_well"]) > 0):
 		key = random.sample(filtered["medium_well"].keys(), 1)[0]
 		cards[key] = filtered["medium_well"][key]
 		cards[key]["num"] = 0
 		cards[key]["pass"] = False
 		del filtered["medium_well"][key]
-	while (rare < 5 and len(filtered["well_done"]) > 0):
+		medium_well += 1
+	while (well_done < config["well_done"] and len(filtered["well_done"]) > 0):
 		key = random.sample(filtered["well_done"].keys(), 1)[0]
 		cards[key] = filtered["well_done"][key]
 		cards[key]["num"] = 0
 		cards[key]["pass"] = False
 		del filtered["well_done"][key]
+		well_done += 1
 	return cards
 
 def check(cards):
@@ -95,8 +107,8 @@ def review(data):
 				continue
 			cards[key]["num"] += 1
 			if(random.random() < .5):
-				os.system("say -v Monica "+key)
-				guess = input(key+" in English: ")
+				os.system("say -v "+config["voice"]+" "+key)
+				guess = input(key+" in "+config["from"]+": ")
 				if guess == cards[key]["EN"]:
 					print("Correct!")
 					cards[key]["pass"] = True
@@ -104,7 +116,7 @@ def review(data):
 					print("No! The answer is "+cards[key]["EN"])
 			else:
 				guess = input(data[key]["EN"]+" en español: ")
-				os.system("say -v Monica "+key)
+				os.system("say -v "+config["voice"]+" "+key)
 				if guess == key:
 					print("Correct!")
 					cards[key]["pass"] = True
@@ -120,19 +132,30 @@ def review(data):
 def print_data(data):
 	print(data)
 
+def check_proficiency_rate(data):
+	cards = filt(copy.deepcopy(data))
+	if len(cards["well_done"])/float(len(data)) > .5:
+		print("You are proficient enough to go to add another box of cards")
+	else:
+		print("No, not yet. Keep working!")
+
 def main():
 	data = init()
-	choice = input("Please enter your action (update or review): ").lower()
+	print("Welcome to flashcards 1.0. This script is originally used for reciting Spanish vocabs but please feel free to use it learning any other languages.")
+	print("Actions:\n u or update\n r or review\n enter \'num\' for checking the size of your vocab pool\n enter \'status\' for knowing your current learning situation.")
+	choice = input("Please enter your action: ").lower()
 	if choice == 'u' or choice == 'update':
 		data = update(data)
 	elif choice == 'r' or choice == 'review':
 		data = review(data)
 	elif choice == 'num':
 		print(len(data))
+	elif choice == 'status':
+		check_proficiency_rate(data)
 	else:
 		print("Bad Input")
 
-	with open(datafile, "w") as f:
+	with open(config["vocabPath"], "w") as f:
 		json.dump(data, f, sort_keys=True, indent=4)
 	print("Goodbye!")
 

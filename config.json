@@ -1,0 +1,12 @@
+{
+	"vocabPath": "vocabulario.json",
+	"learning": "Spanish",
+	"from": "English",
+	"boxSize": 100,
+	"rare": 40,
+	"medium_rare": 30,
+	"medium": 15,
+	"medium_well": 10,
+	"well_done": 5,
+	"voice": "Monica"
+}

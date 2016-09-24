@@ -1,410 +1,410 @@
 {
     "afuera": {
         "EN": "outside",
-        "proficiency": 0
+        "proficiency": 0.375
     },
     "amargo": {
         "EN": "bitter",
-        "proficiency": 0
+        "proficiency": 0.20833333333333331
     },
     "aspecto": {
         "EN": "appearance",
-        "proficiency": 0
+        "proficiency": 0.75
     },
     "auscultar": {
         "EN": "auscultate",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "az\u00facar": {
         "EN": "sugar",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "bastante": {
         "EN": "enough",
-        "proficiency": 0
+        "proficiency": 0.15555555555555556
     },
     "boca": {
         "EN": "mouth",
-        "proficiency": 0
+        "proficiency": 0.75
     },
     "caer": {
         "EN": "fall",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "cerdo": {
         "EN": "pig",
-        "proficiency": 0
+        "proficiency": 0.6666666666666666
     },
     "cereal": {
         "EN": "cereal",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "col": {
         "EN": "cabbage",
-        "proficiency": 0
+        "proficiency": 0.29166666666666663
     },
     "cola": {
         "EN": "tail",
-        "proficiency": 0
+        "proficiency": 0.41666666666666663
     },
     "consumir": {
         "EN": "consume",
-        "proficiency": 0
+        "proficiency": 0.75
     },
     "cosecha": {
         "EN": "harvest",
-        "proficiency": 0
+        "proficiency": 0.13392857142857142
     },
     "criar": {
         "EN": "raise",
-        "proficiency": 0
+        "proficiency": 0.41666666666666663
     },
     "cuchara": {
         "EN": "spoon",
-        "proficiency": 0
+        "proficiency": 0.625
     },
     "darse prisa": {
         "EN": "hurry up",
-        "proficiency": 0
+        "proficiency": 0.29166666666666663
     },
     "da\u00f1ado": {
         "EN": "damaged",
-        "proficiency": 0
+        "proficiency": 0.29166666666666663
     },
     "demasiado": {
         "EN": "too",
-        "proficiency": 0
+        "proficiency": 0.6666666666666666
     },
     "dentista": {
         "EN": "dentist",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "despacio": {
         "EN": "slowly",
-        "proficiency": 0
+        "proficiency": 0.23809523809523808
     },
     "despertarse": {
         "EN": "wake up",
-        "proficiency": 0
+        "proficiency": 0.375
     },
     "dulce": {
         "EN": "sweet",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "durante": {
         "EN": "during",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "d\u00e9bil": {
         "EN": "weak",
-        "proficiency": 0
+        "proficiency": 0.6666666666666666
     },
     "d\u00f3lar": {
         "EN": "dollar",
-        "proficiency": 0
+        "proficiency": 0.6666666666666666
     },
     "ejemplo": {
         "EN": "example",
-        "proficiency": 0
+        "proficiency": 0.41666666666666663
     },
     "examinar": {
         "EN": "examine",
-        "proficiency": 0
+        "proficiency": 0.75
     },
     "farmacia": {
         "EN": "pharmacy",
-        "proficiency": 0
+        "proficiency": 0.75
     },
     "fiebre": {
         "EN": "fever",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "gallina": {
         "EN": "hen",
-        "proficiency": 0
+        "proficiency": 0.41666666666666663
     },
     "gallo": {
         "EN": "rooster",
-        "proficiency": 0
+        "proficiency": 0.625
     },
     "gana": {
         "EN": "desire",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "garganta": {
         "EN": "throat",
-        "proficiency": 0
+        "proficiency": 0.75
     },
     "gordo": {
         "EN": "fat",
-        "proficiency": 0
+        "proficiency": 0.625
     },
     "grado": {
         "EN": "degree",
-        "proficiency": 0
+        "proficiency": 0.6666666666666666
     },
     "grave": {
         "EN": "serious",
-        "proficiency": 0
+        "proficiency": 0.6666666666666666
     },
     "guardar": {
         "EN": "save",
-        "proficiency": 0
+        "proficiency": 0.3333333333333333
     },
     "guardar cama": {
         "EN": "stay in bed",
-        "proficiency": 0
+        "proficiency": 0.6666666666666666
     },
     "hambre": {
         "EN": "hunger",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "harina": {
         "EN": "flour",
-        "proficiency": 0
+        "proficiency": 0.16666666666666666
     },
     "igualmente": {
         "EN": "equally",
-        "proficiency": 0
+        "proficiency": 0.6666666666666666
     },
     "inyecci\u00f3n": {
         "EN": "injection",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "jefe": {
         "EN": "boss",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "ligero": {
         "EN": "light",
-        "proficiency": 0
+        "proficiency": 0.625
     },
     "malestar": {
         "EN": "discomfort",
-        "proficiency": 0
+        "proficiency": 0.375
     },
     "mantequilla": {
         "EN": "butter",
-        "proficiency": 0
+        "proficiency": 0.3333333333333333
     },
     "medicina": {
         "EN": "medicine",
-        "proficiency": 0
+        "proficiency": 0.75
     },
     "menajar": {
         "EN": "manage",
-        "proficiency": 0
+        "proficiency": 0.3333333333333333
     },
     "mermelada": {
         "EN": "jam",
-        "proficiency": 0
+        "proficiency": 0.29545454545454547
     },
     "m\u00e9dico": {
         "EN": "doctor",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "nariz": {
         "EN": "nose",
-        "proficiency": 0
+        "proficiency": 0.41666666666666663
     },
     "ni": {
         "EN": "nor",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "norte": {
         "EN": "north",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "oye": {
         "EN": "here",
-        "proficiency": 0
+        "proficiency": 0.75
     },
     "palillo": {
         "EN": "stick",
-        "proficiency": 0
+        "proficiency": 0.35
     },
     "patata": {
         "EN": "potato",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "pecho": {
         "EN": "chest",
-        "proficiency": 0
+        "proficiency": 0.6666666666666666
     },
     "pedir permiso": {
         "EN": "ask for permission",
-        "proficiency": 0
+        "proficiency": 0.75
     },
     "pepino": {
         "EN": "cucumber",
-        "proficiency": 0
+        "proficiency": 0.23809523809523808
     },
     "permiso": {
         "EN": "permission",
-        "proficiency": 0
+        "proficiency": 0.75
     },
     "picante": {
         "EN": "spicy",
-        "proficiency": 0
+        "proficiency": 0.1625
     },
     "plato": {
         "EN": "dish",
-        "proficiency": 0
+        "proficiency": 0.625
     },
     "pobre": {
         "EN": "poor",
-        "proficiency": 0
+        "proficiency": 0.41666666666666663
     },
     "por ejemplo": {
         "EN": "for example",
-        "proficiency": 0
+        "proficiency": 0.41666666666666663
     },
     "precio": {
         "EN": "price",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "preferir": {
         "EN": "prefer",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "producir": {
         "EN": "produce",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "profundo": {
         "EN": "deep",
-        "proficiency": 0
+        "proficiency": 0.75
     },
     "provecho": {
         "EN": "advantage",
-        "proficiency": 0
+        "proficiency": 0.3125
     },
     "provincia": {
         "EN": "province",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "queso": {
         "EN": "cheese",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "quitarse": {
         "EN": "take off",
-        "proficiency": 0
+        "proficiency": 0.6666666666666666
     },
     "recetar": {
         "EN": "prescribe",
-        "proficiency": 0
+        "proficiency": 0.375
     },
     "registrar": {
         "EN": "register",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "res": {
         "EN": "beef",
-        "proficiency": 0
+        "proficiency": 0.625
     },
     "resfriado": {
         "EN": "cold",
-        "proficiency": 0
+        "proficiency": 0.375
     },
     "respirar": {
         "EN": "breathe",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "sabor": {
         "EN": "taste",
-        "proficiency": 0
+        "proficiency": 0.625
     },
     "sabroso": {
         "EN": "tasty",
-        "proficiency": 0
+        "proficiency": 0.25
     },
     "sacar": {
         "EN": "take",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "salado": {
         "EN": "salty",
-        "proficiency": 0
+        "proficiency": 0.29166666666666663
     },
     "satisfecho": {
         "EN": "satisfied",
-        "proficiency": 0
+        "proficiency": 0.6666666666666666
     },
     "seguir": {
         "EN": "follow",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "seguro": {
         "EN": "sure",
-        "proficiency": 0
+        "proficiency": 0.6666666666666666
     },
     "soso": {
         "EN": "insipid",
-        "proficiency": 0
+        "proficiency": 0.26666666666666666
     },
     "sucio": {
         "EN": "dirty",
-        "proficiency": 0
+        "proficiency": 0.20833333333333331
     },
     "suerte": {
         "EN": "fate",
-        "proficiency": 0
+        "proficiency": 0.5714285714285714
     },
     "tableta": {
         "EN": "tablet",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "taz\u00f3n": {
         "EN": "bowl",
-        "proficiency": 0
+        "proficiency": 0.3333333333333333
     },
     "tenedor": {
         "EN": "fork",
-        "proficiency": 0
+        "proficiency": 0.41666666666666663
     },
     "term\u00f3metro": {
         "EN": "thermometer",
-        "proficiency": 0
+        "proficiency": 0.6
     },
     "tierra": {
         "EN": "earth",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "torta": {
         "EN": "cake",
-        "proficiency": 0
+        "proficiency": 0.12698412698412698
     },
     "toser": {
         "EN": "cough",
-        "proficiency": 0
+        "proficiency": 0.18333333333333335
     },
     "trigo": {
         "EN": "wheat",
-        "proficiency": 0
+        "proficiency": 0.17142857142857143
     },
     "tupido": {
         "EN": "thick",
-        "proficiency": 0
+        "proficiency": 0.29166666666666663
     },
     "t\u00e9": {
         "EN": "tea",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "vario": {
         "EN": "several",
-        "proficiency": 0
+        "proficiency": 0.75
     },
     "viento": {
         "EN": "wind",
-        "proficiency": 0
+        "proficiency": 0.6666666666666666
     },
     "\u00a1caramba!": {
         "EN": "gee!",
-        "proficiency": 0
+        "proficiency": 0.14583333333333331
     },
     "\u00e1cido": {
         "EN": "acid",
-        "proficiency": 0
+        "proficiency": 0.75
     }
 }
