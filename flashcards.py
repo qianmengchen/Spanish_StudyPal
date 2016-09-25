@@ -18,11 +18,11 @@ def update(data):
 	print("Before adding another box of cards, I recommand you try \'status\' to know if it is now a good time to go on.")
 	print("When finish adding, enter \'q\' for new "+config["learning"]+" word.")
 	while True:
-		es = input("New "+config["learning"]+" word: ").lower()
+		es = input("\033[1;32;40m New "+config["learning"]+" word: ").lower()
 		if es == 'q':
 			break
 		data[es] = {'proficiency': 0}
-		en = input("The "+config["from"]+" meaning of "+es+": ").lower()
+		en = input("\033[1;37;40m The "+config["from"]+" meaning of "+es+": ").lower()
 		data[es]["EN"] = en
 		if len(data) % config["boxSize"] == 0:
 			print("It is now another box.")
@@ -157,6 +157,6 @@ def main():
 
 	with open(config["vocabPath"], "w") as f:
 		json.dump(data, f, sort_keys=True, indent=4)
-	print("Goodbye!")
+	print("\033[1;37;40m Goodbye!")
 
 main()
