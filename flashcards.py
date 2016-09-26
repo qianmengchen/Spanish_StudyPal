@@ -16,7 +16,7 @@ def init():
 
 def update(data):
 	print("Before adding another box of cards, I recommand you try \'status\' to know if it is now a good time to go on.")
-	print("When finish adding, enter \'q\' for new "+config["learning"]+" word.")
+	print("When finish adding, enter \'q\' to quit.")
 	while True:
 		es = input("\033[1;32;40m New "+config["learning"]+" word: ").lower()
 		if es == 'q':
@@ -25,7 +25,7 @@ def update(data):
 		en = input("\033[1;37;40m The "+config["from"]+" meaning of "+es+": ").lower()
 		data[es]["EN"] = en
 		if len(data) % config["boxSize"] == 0:
-			print("It is now another box.")
+			print("\033[1;31;40m It is now another box.")
 	return data
 
 def filt(data):
