@@ -15,7 +15,7 @@ def init():
 		return data
 
 def update(data):
-	print("Before adding another box of cards, I recommand you try \'status\' to know if it is now a good time to go on.")
+	print("\033[1;37;40m Before adding another box of cards, I recommand you try \'status\' to know if it is now a good time to go on.")
 	print("When finish adding, enter \'q\' to quit.")
 	while True:
 		es = input("\033[1;32;40m New "+config["learning"]+" word: ").lower()
@@ -99,6 +99,7 @@ def check(cards):
 
 def review(data):
 	cards = randomly_choose(copy.deepcopy(data))
+	print("\033[1;37;40m There are "+str(len(cards))+" vocabs in this run")
 	while(not check(cards)):
 		keys = list(cards.keys())
 		random.shuffle(keys)
@@ -123,6 +124,8 @@ def review(data):
 				else:
 					print("¡No!, la respuesta correcta es "+key)
 	for key in data.keys():
+		if key not in cards:
+			continue
 		if (data[key]["proficiency"] == 0):
 			data[key]["proficiency"] = 1./cards[key]["num"]
 		else:
@@ -134,29 +137,45 @@ def print_data(data):
 
 def check_proficiency_rate(data):
 	cards = filt(copy.deepcopy(data))
-	if len(cards["well_done"])/float(len(data)) > .5:
-		print("You are proficient enough to go to add another box of cards")
+	well_done = len(cards["well_done"])/float(len(data))
+	rare = len(cards["rare"])/float(len(data))
+	medium_rare = len(cards["medium_rare"])/float(len(data))
+	medium = len(cards["medium"])/float(len(data))
+	medium_well = len(cards["medium_well"])/float(len(data))
+	print("\033[1;37;40m Below is your current level of proficiency:")
+	print("rare: "+str(rare))
+	print("medium rare: "+str(medium_rare))
+	print("medium: "+str(medium))
+	print("medium_well: "+str(medium_well))
+	print("well_done: "+str(well_done))
+	if well_done > .5:
+		print("You are proficient enough to add another box of cards")
 	else:
 		print("No, not yet. Keep working!")
 
 def main():
 	data = init()
-	print("Welcome to flashcards 1.0. This script is originally used for reciting Spanish vocabs but please feel free to use it learning any other languages.")
-	print("Actions:\n u or update\n r or review\n enter \'num\' for checking the size of your vocab pool\n enter \'status\' for knowing your current learning situation.")
+	print("\033[0m Actions:\n \'u\' or \'update\'\n \'r\' or \'review\'\n \'num\' to check the size of your vocab pool\n \'stats\' to know your current learning situation.")
+	print(" \'q\' to quit this program")
 	choice = input("Please enter your action: ").lower()
 	if choice == 'u' or choice == 'update':
 		data = update(data)
 	elif choice == 'r' or choice == 'review':
 		data = review(data)
 	elif choice == 'num':
-		print(len(data))
-	elif choice == 'status':
+		print("\033[1;37;40m You currently have "+str(len(data))+" words in your vocabulary list.")
+	elif choice == 'stats':
 		check_proficiency_rate(data)
+	elif choice == 'q':
+		return False
 	else:
-		print("Bad Input")
+		print("\033[1;37;40m Bad Input")
 
 	with open(config["vocabPath"], "w") as f:
 		json.dump(data, f, sort_keys=True, indent=4)
-	print("\033[1;37;40m Goodbye!")
+	return True
 
-main()
+print("Welcome to flashcards by Qianmeng Chen.")
+while main():
+	pass
+print("\033[1;37;40m Goodbye!")
