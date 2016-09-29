@@ -25,7 +25,15 @@ def update(data):
 		en = input("\033[1;37;40m The "+config["from"]+" meaning of "+es+": ").lower()
 		data[es]["EN"] = en
 		if len(data) % config["boxSize"] == 0:
-			print("\033[1;31;40m It is now another box.")
+			print("\033[1;31;40m The list size just reached "+len(data)+".")
+			while True:
+				quit = input("Are you going to continue adding vocabs(y/n)?: ").lower()
+				if quit == 'y':
+					break
+				elif quit == 'n':
+					return data
+				else:
+					print("Bad Input!")
 	return data
 
 def filt(data):
@@ -89,6 +97,13 @@ def randomly_choose(data):
 		cards[key]["pass"] = False
 		del filtered["well_done"][key]
 		well_done += 1
+	while (len(cards) < config["boxSize"]):
+		key = random.sample(data.keys(), 1)[0]
+		if key in cards:
+			continue
+		cards[key] = data[key]
+		cards[key]["num"] = 0
+		cards[key]["pass"] = False
 	return cards
 
 def check(cards):
@@ -109,14 +124,14 @@ def review(data):
 			cards[key]["num"] += 1
 			if(random.random() < .5):
 				os.system("say -v "+config["voice"]+" "+key)
-				guess = input(key+" in "+config["from"]+": ")
+				guess = input(key+" in "+config["from"]+": ").lower()
 				if guess == cards[key]["EN"]:
 					print("Correct!")
 					cards[key]["pass"] = True
 				else:
 					print("No! The answer is "+cards[key]["EN"])
 			else:
-				guess = input(data[key]["EN"]+" en español: ")
+				guess = input(data[key]["EN"]+" en español: ").lower()
 				os.system("say -v "+config["voice"]+" "+key)
 				if guess == key:
 					print("Correct!")
@@ -148,10 +163,6 @@ def check_proficiency_rate(data):
 	print("medium: "+str(medium))
 	print("medium_well: "+str(medium_well))
 	print("well_done: "+str(well_done))
-	if well_done > .5:
-		print("You are proficient enough to add another box of cards")
-	else:
-		print("No, not yet. Keep working!")
 
 def main():
 	data = init()
