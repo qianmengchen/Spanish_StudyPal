@@ -1,6 +1,14 @@
 {
+    "a favor de": {
+        "EN": "in favor of",
+        "proficiency": 0
+    },
     "a menudo": {
         "EN": "often",
+        "proficiency": 0.35
+    },
+    "a su disposici\u00f3n": {
+        "EN": "at your service",
         "proficiency": 0
     },
     "abajo": {
@@ -11,9 +19,29 @@
         "EN": "hug",
         "proficiency": 0.75
     },
+    "abril": {
+        "EN": "april",
+        "proficiency": 0
+    },
+    "acaso": {
+        "EN": "perhaps",
+        "proficiency": 0
+    },
+    "acomodador": {
+        "EN": "usher",
+        "proficiency": 0
+    },
     "acostarse": {
         "EN": "go to bed",
         "proficiency": 1.0
+    },
+    "actor": {
+        "EN": "actor",
+        "proficiency": 0
+    },
+    "actuar": {
+        "EN": "act",
+        "proficiency": 0
     },
     "acuerdo": {
         "EN": "agreement",
@@ -23,21 +51,33 @@
         "EN": "ahead",
         "proficiency": 0.5
     },
+    "afanarse": {
+        "EN": "strive",
+        "proficiency": 0
+    },
     "afuera": {
         "EN": "outside",
-        "proficiency": 0.71875
+        "proficiency": 0.859375
+    },
+    "agotado": {
+        "EN": "exhausted",
+        "proficiency": 0
     },
     "agradecer": {
         "EN": "thank",
-        "proficiency": 0.25
+        "proficiency": 0.2791666666666667
     },
     "al d\u00eda": {
         "EN": "everyday",
+        "proficiency": 1.0
+    },
+    "al final": {
+        "EN": "in the end",
         "proficiency": 0
     },
     "al lado de": {
         "EN": "next to",
-        "proficiency": 0.5
+        "proficiency": 0.75
     },
     "alegr\u00eda": {
         "EN": "joy",
@@ -45,15 +85,15 @@
     },
     "alem\u00e1n": {
         "EN": "german",
-        "proficiency": 0.5
+        "proficiency": 0.75
     },
     "algo": {
         "EN": "something",
-        "proficiency": 0
+        "proficiency": 0.5
     },
     "almac\u00e9n": {
         "EN": "warehouse",
-        "proficiency": 0.5
+        "proficiency": 0.75
     },
     "almorzar": {
         "EN": "have lunch",
@@ -61,23 +101,35 @@
     },
     "alrededor": {
         "EN": "around",
-        "proficiency": 0
+        "proficiency": 0.5
     },
     "amargo": {
         "EN": "bitter",
-        "proficiency": 0.8020833333333333
+        "proficiency": 0.9010416666666666
     },
     "anciano": {
         "EN": "old man",
+        "proficiency": 0.2
+    },
+    "animado": {
+        "EN": "cheerful",
+        "proficiency": 0
+    },
+    "anterior": {
+        "EN": "former",
         "proficiency": 0
     },
     "apetito": {
         "EN": "appetite",
         "proficiency": 1.0
     },
+    "aplaudir": {
+        "EN": "applaud",
+        "proficiency": 0
+    },
     "arreglar": {
         "EN": "fix",
-        "proficiency": 1.0
+        "proficiency": 0.75
     },
     "arreglarse": {
         "EN": "to get ready",
@@ -93,19 +145,27 @@
     },
     "asiento": {
         "EN": "seat",
-        "proficiency": 0
+        "proficiency": 0.3333333333333333
     },
     "aspecto": {
         "EN": "appearance",
         "proficiency": 0.75
     },
+    "atleta": {
+        "EN": "athlete",
+        "proficiency": 0
+    },
+    "atractivo": {
+        "EN": "attractive",
+        "proficiency": 0
+    },
     "aunque": {
         "EN": "although",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "auscultar": {
         "EN": "auscultate",
-        "proficiency": 1.0
+        "proficiency": 0.75
     },
     "autor": {
         "EN": "author",
@@ -139,17 +199,25 @@
         "EN": "mouth",
         "proficiency": 0.75
     },
+    "bolsillo": {
+        "EN": "pocket",
+        "proficiency": 0
+    },
     "brazo": {
         "EN": "arm",
-        "proficiency": 0
+        "proficiency": 0.5
     },
     "buz\u00f3n": {
         "EN": "mailbox",
-        "proficiency": 0.375
+        "proficiency": 0.71875
+    },
+    "b\u00e1sketbol": {
+        "EN": "basketball",
+        "proficiency": 0
     },
     "cabeza": {
         "EN": "head",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "caer": {
         "EN": "fall",
@@ -157,11 +225,11 @@
     },
     "caja": {
         "EN": "box",
-        "proficiency": 0
+        "proficiency": 0.29166666666666663
     },
     "calcet\u00edn": {
         "EN": "sock",
-        "proficiency": 0.75
+        "proficiency": 0.875
     },
     "calidad": {
         "EN": "quality",
@@ -169,30 +237,38 @@
     },
     "calzar": {
         "EN": "wear",
-        "proficiency": 0
+        "proficiency": 0.3333333333333333
     },
     "camisa": {
         "EN": "shirt",
-        "proficiency": 0
+        "proficiency": 0.3333333333333333
     },
     "campesino": {
         "EN": "farmer",
-        "proficiency": 0
+        "proficiency": 0.5
     },
     "campo": {
         "EN": "countryside",
-        "proficiency": 0
+        "proficiency": 0.5
     },
     "caro": {
         "EN": "expensive",
+        "proficiency": 0.75
+    },
+    "carrera": {
+        "EN": "run",
         "proficiency": 0
     },
     "casado": {
         "EN": "married",
-        "proficiency": 0
+        "proficiency": 0.5
     },
     "casarse": {
         "EN": "get marry",
+        "proficiency": 0.5
+    },
+    "celebrar": {
+        "EN": "celebrate",
         "proficiency": 0
     },
     "cepillar": {
@@ -209,19 +285,19 @@
     },
     "chaqueta": {
         "EN": "jacket",
-        "proficiency": 0
+        "proficiency": 0.5
     },
     "chofer": {
         "EN": "driver",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "cient\u00edfico": {
         "EN": "scientific",
-        "proficiency": 0.5
+        "proficiency": 0.75
     },
     "cincuenta": {
         "EN": "fifty",
-        "proficiency": 0
+        "proficiency": 0.6666666666666666
     },
     "col": {
         "EN": "cabbage",
@@ -229,14 +305,26 @@
     },
     "cola": {
         "EN": "tail",
-        "proficiency": 0.7083333333333333
+        "proficiency": 0.9270833333333333
     },
     "como": {
         "EN": "as",
         "proficiency": 1.0
     },
+    "competencia": {
+        "EN": "competition",
+        "proficiency": 0
+    },
+    "compe\u00f3n": {
+        "EN": "champion",
+        "proficiency": 0
+    },
     "computadora": {
         "EN": "computer",
+        "proficiency": 0.5
+    },
+    "con motivo de": {
+        "EN": "because of",
         "proficiency": 0
     },
     "consulta": {
@@ -245,11 +333,19 @@
     },
     "consumir": {
         "EN": "consume",
-        "proficiency": 0.75
+        "proficiency": 0.875
     },
     "contar": {
         "EN": "count",
         "proficiency": 0.75
+    },
+    "contenido": {
+        "EN": "content",
+        "proficiency": 0
+    },
+    "coro": {
+        "EN": "chorus",
+        "proficiency": 0
     },
     "corregir": {
         "EN": "correct",
@@ -269,7 +365,7 @@
     },
     "cuarenta": {
         "EN": "forty",
-        "proficiency": 0.5
+        "proficiency": 0.7083333333333333
     },
     "cuchara": {
         "EN": "spoon",
@@ -277,7 +373,7 @@
     },
     "cuento": {
         "EN": "story",
-        "proficiency": 0
+        "proficiency": 0.225
     },
     "cursillo": {
         "EN": "workshop",
@@ -289,11 +385,19 @@
     },
     "cu\u00f1ado": {
         "EN": "brother in law",
+        "proficiency": 0.5
+    },
+    "danza": {
+        "EN": "dance",
         "proficiency": 0
     },
     "dar consulta": {
         "EN": "give consultation",
         "proficiency": 1.0
+    },
+    "dar la mano": {
+        "EN": "shake hands",
+        "proficiency": 0
     },
     "darse prisa": {
         "EN": "hurry up",
@@ -327,13 +431,17 @@
         "EN": "too",
         "proficiency": 0.6666666666666666
     },
+    "dem\u00e1s": {
+        "EN": "the rest",
+        "proficiency": 0
+    },
     "dentista": {
         "EN": "dentist",
         "proficiency": 1.0
     },
     "dentro": {
         "EN": "inside",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "dependiente": {
         "EN": "salesman",
@@ -345,11 +453,15 @@
     },
     "desde luego": {
         "EN": "of course",
-        "proficiency": 0
+        "proficiency": 0.25
     },
     "desear": {
         "EN": "wish",
         "proficiency": 1.0
+    },
+    "desempe\u00f1ar": {
+        "EN": "act",
+        "proficiency": 0
     },
     "despacio": {
         "EN": "slowly",
@@ -369,6 +481,10 @@
     },
     "dinero": {
         "EN": "money",
+        "proficiency": 1.0
+    },
+    "disposici\u00f3n": {
+        "EN": "provision",
         "proficiency": 0
     },
     "distinto": {
@@ -378,6 +494,10 @@
     "diverso": {
         "EN": "diverse",
         "proficiency": 0.5
+    },
+    "drama": {
+        "EN": "drama",
+        "proficiency": 0
     },
     "dulce": {
         "EN": "sweet",
@@ -397,7 +517,7 @@
     },
     "echar": {
         "EN": "throw",
-        "proficiency": 0.5
+        "proficiency": 0.75
     },
     "edad": {
         "EN": "age",
@@ -406,6 +526,10 @@
     "efectuar": {
         "EN": "make",
         "proficiency": 1.0
+    },
+    "ejemplar": {
+        "EN": "copy",
+        "proficiency": 0
     },
     "ejemplo": {
         "EN": "example",
@@ -419,21 +543,49 @@
         "EN": "start",
         "proficiency": 1.0
     },
+    "en total": {
+        "EN": "in total",
+        "proficiency": 0
+    },
+    "encantado": {
+        "EN": "delighted",
+        "proficiency": 0
+    },
     "encantador": {
         "EN": "charming",
-        "proficiency": 0.3333333333333333
+        "proficiency": 0.4583333333333333
     },
     "ense\u00f1ar": {
         "EN": "teach",
-        "proficiency": 0.41666666666666663
+        "proficiency": 0.7083333333333333
     },
     "entender": {
         "EN": "understand",
         "proficiency": 1.0
     },
+    "entrada": {
+        "EN": "entrance",
+        "proficiency": 0
+    },
+    "envolver": {
+        "EN": "wrap",
+        "proficiency": 0
+    },
+    "equipo": {
+        "EN": "team",
+        "proficiency": 0
+    },
     "errata": {
         "EN": "misprint",
-        "proficiency": 0.5
+        "proficiency": 0.75
+    },
+    "escena": {
+        "EN": "scene",
+        "proficiency": 0
+    },
+    "escenario": {
+        "EN": "stage",
+        "proficiency": 0
     },
     "escribir a m\u00e1quina": {
         "EN": "typewrite",
@@ -441,7 +593,7 @@
     },
     "escritor": {
         "EN": "writer",
-        "proficiency": 0
+        "proficiency": 0.3333333333333333
     },
     "esfuerzo": {
         "EN": "effort",
@@ -449,7 +601,7 @@
     },
     "estado": {
         "EN": "state",
-        "proficiency": 0
+        "proficiency": 0.5
     },
     "estados unidos": {
         "EN": "the united states",
@@ -457,11 +609,19 @@
     },
     "etc\u00e9tera": {
         "EN": "etc.",
-        "proficiency": 1.0
+        "proficiency": 0.625
+    },
+    "exactamente": {
+        "EN": "exactly",
+        "proficiency": 0
     },
     "examinar": {
         "EN": "examine",
-        "proficiency": 0.75
+        "proficiency": 0.875
+    },
+    "excelente": {
+        "EN": "excellent",
+        "proficiency": 0
     },
     "excursi\u00f3n": {
         "EN": "excursion",
@@ -469,7 +629,7 @@
     },
     "famoso": {
         "EN": "famous",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "farmacia": {
         "EN": "pharmacy",
@@ -483,13 +643,21 @@
         "EN": "happiness",
         "proficiency": 1.0
     },
+    "felicitar": {
+        "EN": "congratulate",
+        "proficiency": 0
+    },
+    "femenino": {
+        "EN": "female",
+        "proficiency": 0
+    },
     "fen": {
         "EN": "fen",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "fichero": {
         "EN": "file",
-        "proficiency": 0
+        "proficiency": 0.35
     },
     "fiebre": {
         "EN": "fever",
@@ -497,23 +665,27 @@
     },
     "fila": {
         "EN": "line",
-        "proficiency": 1.0
+        "proficiency": 0.75
     },
     "fotocopiar": {
         "EN": "photocopy",
-        "proficiency": 0
+        "proficiency": 0.5
     },
     "fuerte": {
         "EN": "strong",
-        "proficiency": 0.5
+        "proficiency": 0.75
     },
     "f\u00edsico": {
         "EN": "physical",
         "proficiency": 1.0
     },
+    "f\u00fatbol": {
+        "EN": "soccer",
+        "proficiency": 0
+    },
     "gallina": {
         "EN": "hen",
-        "proficiency": 0.6875
+        "proficiency": 0.5104166666666666
     },
     "gallo": {
         "EN": "rooster",
@@ -525,7 +697,11 @@
     },
     "garganta": {
         "EN": "throat",
-        "proficiency": 0.75
+        "proficiency": 0.625
+    },
+    "gemelos": {
+        "EN": "twins",
+        "proficiency": 0
     },
     "gordo": {
         "EN": "fat",
@@ -533,15 +709,19 @@
     },
     "gorra": {
         "EN": "cap",
+        "proficiency": 1.0
+    },
+    "gracioso": {
+        "EN": "funny",
         "proficiency": 0
     },
     "grado": {
         "EN": "degree",
-        "proficiency": 0.8333333333333333
+        "proficiency": 0.6666666666666666
     },
     "grandes almacenes": {
         "EN": "department store",
-        "proficiency": 1.0
+        "proficiency": 0.6666666666666666
     },
     "grave": {
         "EN": "serious",
@@ -549,7 +729,7 @@
     },
     "guante": {
         "EN": "glove",
-        "proficiency": 0
+        "proficiency": 0.35
     },
     "guardar": {
         "EN": "save",
@@ -561,10 +741,18 @@
     },
     "guarder\u00eda": {
         "EN": "kindergarten",
+        "proficiency": 0.375
+    },
+    "gu\u00eda": {
+        "EN": "guide",
         "proficiency": 0
     },
     "hacer falta": {
         "EN": "be needed",
+        "proficiency": 0.25
+    },
+    "hacer le papel": {
+        "EN": "play the role",
         "proficiency": 0
     },
     "hambre": {
@@ -573,7 +761,7 @@
     },
     "harina": {
         "EN": "flour",
-        "proficiency": 0.6875
+        "proficiency": 0.5104166666666666
     },
     "horario": {
         "EN": "schedule",
@@ -581,11 +769,11 @@
     },
     "huerto": {
         "EN": "orchard",
-        "proficiency": 0
+        "proficiency": 0.375
     },
     "igualmente": {
         "EN": "equally",
-        "proficiency": 0.6666666666666666
+        "proficiency": 0.8333333333333333
     },
     "impresionar": {
         "EN": "impress",
@@ -593,15 +781,23 @@
     },
     "infantil": {
         "EN": "childish",
-        "proficiency": 0.3333333333333333
+        "proficiency": 0.6666666666666666
+    },
+    "instrumento": {
+        "EN": "instrument",
+        "proficiency": 0
     },
     "inteligente": {
         "EN": "intelligent",
+        "proficiency": 1.0
+    },
+    "internacional": {
+        "EN": "international",
         "proficiency": 0
     },
     "inter\u00e9s": {
         "EN": "interest",
-        "proficiency": 0.75
+        "proficiency": 0.625
     },
     "inyecci\u00f3n": {
         "EN": "injection",
@@ -619,9 +815,17 @@
         "EN": "retire",
         "proficiency": 1.0
     },
+    "jugador": {
+        "EN": "player",
+        "proficiency": 0
+    },
     "lado": {
         "EN": "side",
         "proficiency": 1.0
+    },
+    "lago": {
+        "EN": "lake",
+        "proficiency": 0
     },
     "lavar": {
         "EN": "wash",
@@ -635,8 +839,16 @@
         "EN": "light",
         "proficiency": 0.625
     },
+    "listo": {
+        "EN": "ready",
+        "proficiency": 0
+    },
     "llegar": {
         "EN": "arrive",
+        "proficiency": 1.0
+    },
+    "lleno": {
+        "EN": "full",
         "proficiency": 0
     },
     "llevar": {
@@ -647,13 +859,25 @@
         "EN": "achieve",
         "proficiency": 0.75
     },
+    "los dem\u00e1s": {
+        "EN": "others",
+        "proficiency": 0
+    },
     "luna": {
         "EN": "moon",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "l\u00e1stima": {
         "EN": "pity",
         "proficiency": 0.5
+    },
+    "magia": {
+        "EN": "magic",
+        "proficiency": 0
+    },
+    "magn\u00edfico": {
+        "EN": "magnificent",
+        "proficiency": 0
     },
     "malestar": {
         "EN": "discomfort",
@@ -669,11 +893,15 @@
     },
     "mantequilla": {
         "EN": "butter",
-        "proficiency": 0.47916666666666663
+        "proficiency": 0.4114583333333333
+    },
+    "masculino": {
+        "EN": "male",
+        "proficiency": 0
     },
     "mayor": {
         "EN": "higher",
-        "proficiency": 0
+        "proficiency": 0.3333333333333333
     },
     "ma\u00edz": {
         "EN": "corn",
@@ -681,7 +909,7 @@
     },
     "medicina": {
         "EN": "medicine",
-        "proficiency": 0.75
+        "proficiency": 0.5416666666666666
     },
     "menajar": {
         "EN": "manage",
@@ -689,11 +917,19 @@
     },
     "menudo": {
         "EN": "small",
-        "proficiency": 0
+        "proficiency": 0.25
     },
     "mermelada": {
         "EN": "jam",
-        "proficiency": 0.45359848484848486
+        "proficiency": 0.7267992424242424
+    },
+    "metro": {
+        "EN": "meter",
+        "proficiency": 0
+    },
+    "minimo": {
+        "EN": "minimal",
+        "proficiency": 0
     },
     "moderno": {
         "EN": "modern",
@@ -701,7 +937,7 @@
     },
     "modesto": {
         "EN": "modest",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "morir": {
         "EN": "die",
@@ -711,13 +947,25 @@
         "EN": "show",
         "proficiency": 1.0
     },
+    "motivo": {
+        "EN": "motive",
+        "proficiency": 0
+    },
+    "mundo": {
+        "EN": "world",
+        "proficiency": 0
+    },
+    "musical": {
+        "EN": "musical",
+        "proficiency": 0
+    },
     "mutuamente": {
         "EN": "mutual",
         "proficiency": 0.5
     },
     "m\u00e1quina": {
         "EN": "machine",
-        "proficiency": 0
+        "proficiency": 0.6666666666666666
     },
     "m\u00e9dico": {
         "EN": "doctor",
@@ -725,6 +973,10 @@
     },
     "nacer": {
         "EN": "be born",
+        "proficiency": 1.0
+    },
+    "nadar": {
+        "EN": "swim",
         "proficiency": 0
     },
     "nariz": {
@@ -737,7 +989,7 @@
     },
     "nieto": {
         "EN": "grandson",
-        "proficiency": 0
+        "proficiency": 0.20833333333333331
     },
     "norte": {
         "EN": "north",
@@ -745,23 +997,31 @@
     },
     "novelista": {
         "EN": "novelist",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "novio": {
         "EN": "boyfriend",
-        "proficiency": 0
+        "proficiency": 0.5
     },
     "nuera": {
         "EN": "daughter in law",
+        "proficiency": 0.14285714285714285
+    },
+    "obra": {
+        "EN": "work",
         "proficiency": 0
     },
     "ochenta": {
         "EN": "eighty",
+        "proficiency": 0.5
+    },
+    "ocupar": {
+        "EN": "occupy",
         "proficiency": 0
     },
     "oye": {
         "EN": "here",
-        "proficiency": 0.75
+        "proficiency": 0.625
     },
     "paciente": {
         "EN": "patient",
@@ -769,7 +1029,7 @@
     },
     "pagar": {
         "EN": "pay",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "palillo": {
         "EN": "stick",
@@ -778,6 +1038,10 @@
     "pantal\u00f3n": {
         "EN": "pants",
         "proficiency": 1.0
+    },
+    "papel": {
+        "EN": "paper,role",
+        "proficiency": 0
     },
     "par": {
         "EN": "pair",
@@ -790,6 +1054,10 @@
     "parecido": {
         "EN": "similar",
         "proficiency": 1.0
+    },
+    "partido": {
+        "EN": "match",
+        "proficiency": 0
     },
     "patata": {
         "EN": "potato",
@@ -805,39 +1073,55 @@
     },
     "peinarse": {
         "EN": "comb",
+        "proficiency": 0.5
+    },
+    "pelota": {
+        "EN": "ball",
         "proficiency": 0
     },
     "pepino": {
         "EN": "cucumber",
         "proficiency": 0.6190476190476191
     },
+    "perder": {
+        "EN": "lose",
+        "proficiency": 0
+    },
     "permiso": {
         "EN": "permission",
-        "proficiency": 0.75
+        "proficiency": 0.875
+    },
+    "permitir": {
+        "EN": "permit",
+        "proficiency": 0
     },
     "picante": {
         "EN": "spicy",
-        "proficiency": 0.6239583333333334
+        "proficiency": 0.8119791666666667
     },
     "pie": {
         "EN": "foot",
+        "proficiency": 1.0
+    },
+    "plano": {
+        "EN": "flat",
         "proficiency": 0
     },
     "plato": {
         "EN": "dish",
-        "proficiency": 0.625
+        "proficiency": 0.8125
     },
     "pobre": {
         "EN": "poor",
-        "proficiency": 0.7083333333333333
+        "proficiency": 0.6041666666666666
     },
     "poema": {
         "EN": "poem",
-        "proficiency": 0
+        "proficiency": 0.6666666666666666
     },
     "poes\u00eda": {
         "EN": "poem",
-        "proficiency": 0
+        "proficiency": 0.3333333333333333
     },
     "poeta": {
         "EN": "poet",
@@ -849,7 +1133,11 @@
     },
     "por ejemplo": {
         "EN": "for example",
-        "proficiency": 0.7291666666666666
+        "proficiency": 0.8645833333333333
+    },
+    "precavido": {
+        "EN": "cautious",
+        "proficiency": 0
     },
     "precio": {
         "EN": "price",
@@ -859,13 +1147,21 @@
         "EN": "prefer",
         "proficiency": 1.0
     },
-    "primo": {
-        "EN": "cousin",
+    "premio": {
+        "EN": "prize",
         "proficiency": 0
     },
-    "probar(se)": {
-        "EN": "try (on)",
+    "preocuparse": {
+        "EN": "worry",
         "proficiency": 0
+    },
+    "primo": {
+        "EN": "cousin",
+        "proficiency": 0.3333333333333333
+    },
+    "probar": {
+        "EN": "try",
+        "proficiency": 0.6666666666666666
     },
     "producir": {
         "EN": "produce",
@@ -873,15 +1169,19 @@
     },
     "profundo": {
         "EN": "deep",
-        "proficiency": 0.75
+        "proficiency": 0.875
     },
     "pronto": {
         "EN": "soon",
-        "proficiency": 0.35416666666666663
+        "proficiency": 0.7135416666666666
+    },
+    "propina": {
+        "EN": "tips",
+        "proficiency": 0
     },
     "provecho": {
         "EN": "advantage",
-        "proficiency": 0.65625
+        "proficiency": 0.828125
     },
     "provincia": {
         "EN": "province",
@@ -891,25 +1191,29 @@
         "EN": "since",
         "proficiency": 1.0
     },
+    "puesto": {
+        "EN": "position",
+        "proficiency": 0
+    },
     "punta": {
         "EN": "peak",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "p\u00e1gina": {
         "EN": "page",
-        "proficiency": 0
+        "proficiency": 0.25
     },
     "quedar bien": {
         "EN": "suitable for",
-        "proficiency": 0
+        "proficiency": 0.3333333333333333
     },
     "quedar(se)": {
         "EN": "stay",
-        "proficiency": 0
+        "proficiency": 0.5
     },
     "quedarse con": {
         "EN": "take",
-        "proficiency": 0
+        "proficiency": 0.3333333333333333
     },
     "queso": {
         "EN": "cheese",
@@ -917,27 +1221,31 @@
     },
     "quitar": {
         "EN": "remove",
-        "proficiency": 0.3333333333333333
+        "proficiency": 0.6666666666666666
     },
     "quitarse": {
         "EN": "take off",
-        "proficiency": 0.8333333333333333
+        "proficiency": 0.9166666666666666
     },
     "quiz\u00e1": {
         "EN": "maybe",
-        "proficiency": 0
+        "proficiency": 0.35
     },
     "qu\u00edmico": {
         "EN": "chemical",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "ravioles": {
         "EN": "dumpling",
-        "proficiency": 0.5
+        "proficiency": 0.35
     },
     "recetar": {
         "EN": "prescribe",
-        "proficiency": 0.64375
+        "proficiency": 0.48854166666666665
+    },
+    "reci\u00e9n": {
+        "EN": "recently",
+        "proficiency": 0
     },
     "recordar": {
         "EN": "remember",
@@ -945,11 +1253,19 @@
     },
     "referencia": {
         "EN": "reference",
+        "proficiency": 0.5
+    },
+    "referirse": {
+        "EN": "concern",
         "proficiency": 0
     },
     "registrar": {
         "EN": "register",
         "proficiency": 1.0
+    },
+    "representar": {
+        "EN": "represent",
+        "proficiency": 0
     },
     "res": {
         "EN": "beef",
@@ -957,19 +1273,27 @@
     },
     "resfriado": {
         "EN": "cold",
-        "proficiency": 0.6875
+        "proficiency": 0.84375
     },
     "respetar": {
         "EN": "respect",
-        "proficiency": 0.5
+        "proficiency": 0.75
     },
     "respirar": {
         "EN": "breathe",
-        "proficiency": 0.6
+        "proficiency": 0.8
+    },
+    "resultado": {
+        "EN": "result",
+        "proficiency": 0
+    },
+    "reunir": {
+        "EN": "reunite",
+        "proficiency": 0
     },
     "r\u00e1pidamente": {
         "EN": "quickly",
-        "proficiency": 0
+        "proficiency": 0.5
     },
     "r\u00edo": {
         "EN": "river",
@@ -981,15 +1305,35 @@
     },
     "sabroso": {
         "EN": "tasty",
-        "proficiency": 0.625
+        "proficiency": 0.5625
     },
     "sacar": {
         "EN": "take",
-        "proficiency": 1.0
+        "proficiency": 0
     },
     "salado": {
         "EN": "salty",
-        "proficiency": 0.6458333333333333
+        "proficiency": 0.9114583333333333
+    },
+    "salir campe\u00f3n": {
+        "EN": "win champion",
+        "proficiency": 0
+    },
+    "saltar": {
+        "EN": "jump",
+        "proficiency": 0
+    },
+    "salto": {
+        "EN": "jump",
+        "proficiency": 0
+    },
+    "sal\u00f3n": {
+        "EN": "lounge",
+        "proficiency": 0
+    },
+    "saque": {
+        "EN": "serve",
+        "proficiency": 0
     },
     "satisfecho": {
         "EN": "satisfied",
@@ -1009,11 +1353,11 @@
     },
     "sentado": {
         "EN": "seated",
-        "proficiency": 0
+        "proficiency": 0.5
     },
     "sentarse": {
         "EN": "sit down",
-        "proficiency": 1.0
+        "proficiency": 0.75
     },
     "servir": {
         "EN": "serve",
@@ -1021,18 +1365,34 @@
     },
     "sesenta": {
         "EN": "sixty",
+        "proficiency": 0.375
+    },
+    "set": {
+        "EN": "set",
+        "proficiency": 0
+    },
+    "sexto": {
+        "EN": "sixth",
         "proficiency": 0
     },
     "se\u00f1alar": {
         "EN": "point out",
-        "proficiency": 0.6666666666666666
+        "proficiency": 0.8333333333333333
     },
     "siesta": {
         "EN": "nap",
         "proficiency": 1.0
     },
+    "sitio": {
+        "EN": "place",
+        "proficiency": 0
+    },
     "sobrino": {
         "EN": "nephew",
+        "proficiency": 0.25
+    },
+    "sol": {
+        "EN": "sun",
         "proficiency": 0
     },
     "solamente": {
@@ -1051,9 +1411,17 @@
         "EN": "insipid",
         "proficiency": 0.6333333333333333
     },
+    "subir": {
+        "EN": "go up",
+        "proficiency": 0
+    },
     "sucio": {
         "EN": "dirty",
-        "proficiency": 0.6770833333333333
+        "proficiency": 0.8385416666666666
+    },
+    "suelto": {
+        "EN": "loose",
+        "proficiency": 0
     },
     "suerte": {
         "EN": "fate",
@@ -1069,11 +1437,11 @@
     },
     "tan": {
         "EN": "such",
-        "proficiency": 0
+        "proficiency": 0.5
     },
     "taz\u00f3n": {
         "EN": "bowl",
-        "proficiency": 0.6666666666666666
+        "proficiency": 0.5833333333333333
     },
     "teatro": {
         "EN": "theater",
@@ -1087,13 +1455,17 @@
         "EN": "fork",
         "proficiency": 0.7291666666666666
     },
+    "tenis": {
+        "EN": "tenis",
+        "proficiency": 0
+    },
     "term\u00f3metro": {
         "EN": "thermometer",
         "proficiency": 0.6
     },
     "tesis": {
         "EN": "thesis",
-        "proficiency": 0
+        "proficiency": 1.0
     },
     "tierra": {
         "EN": "earth",
@@ -1101,27 +1473,31 @@
     },
     "titular": {
         "EN": "title",
-        "proficiency": 0
+        "proficiency": 0.5
     },
     "torta": {
         "EN": "cake",
-        "proficiency": 0.5634920634920635
+        "proficiency": 0.7817460317460317
     },
     "tos": {
         "EN": "cough",
-        "proficiency": 0
+        "proficiency": 0.5
     },
     "toser": {
         "EN": "cough",
         "proficiency": 0.5916666666666667
     },
+    "total": {
+        "EN": "total",
+        "proficiency": 0
+    },
     "traer": {
         "EN": "bring",
-        "proficiency": 1.0
+        "proficiency": 0.75
     },
     "tranquilo": {
         "EN": "calm",
-        "proficiency": 0.3333333333333333
+        "proficiency": 0.29166666666666663
     },
     "transmitir": {
         "EN": "transmit",
@@ -1129,15 +1505,15 @@
     },
     "tratar": {
         "EN": "treat",
-        "proficiency": 0
+        "proficiency": 0.6666666666666666
     },
     "travieso": {
         "EN": "naughty",
-        "proficiency": 0
+        "proficiency": 0.1625
     },
     "trigo": {
         "EN": "wheat",
-        "proficiency": 0.7928571428571429
+        "proficiency": 0.8964285714285715
     },
     "tupido": {
         "EN": "thick",
@@ -1149,11 +1525,27 @@
     },
     "t\u00edtulo": {
         "EN": "title",
+        "proficiency": 0.41666666666666663
+    },
+    "urgente": {
+        "EN": "urgent",
         "proficiency": 0
     },
     "vario": {
         "EN": "several",
-        "proficiency": 0.75
+        "proficiency": 0.625
+    },
+    "velada": {
+        "EN": "cocktail party",
+        "proficiency": 0
+    },
+    "veleibol": {
+        "EN": "volleyball",
+        "proficiency": 0
+    },
+    "vencer": {
+        "EN": "win",
+        "proficiency": 0
     },
     "vender": {
         "EN": "sell",
@@ -1171,9 +1563,17 @@
         "EN": "wind",
         "proficiency": 0.8333333333333333
     },
+    "ya que": {
+        "EN": "as",
+        "proficiency": 0
+    },
     "yerno": {
         "EN": "son in law",
-        "proficiency": 0.25
+        "proficiency": 0.625
+    },
+    "\u00a1adi\u00f3s!": {
+        "EN": "bye!",
+        "proficiency": 0
     },
     "\u00a1caramba!": {
         "EN": "gee!",
@@ -1193,10 +1593,10 @@
     },
     "\u00faltimamente": {
         "EN": "lately",
-        "proficiency": 0
+        "proficiency": 0.41666666666666663
     },
     "\u00faltimo": {
         "EN": "latest",
-        "proficiency": 0
+        "proficiency": 0.6
     }
 }

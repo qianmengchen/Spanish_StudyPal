@@ -16,16 +16,21 @@ def init():
 
 def update(data):
 	print("\033[1;37;40m Before adding another box of cards, I recommand you try \'status\' to know if it is now a good time to go on.")
+	print("Enter 'del' to delete an entry")
 	print("When finish adding, enter \'q\' to quit.")
 	while True:
 		es = input("\033[1;32;40m New "+config["learning"]+" word: ").lower()
 		if es == 'q':
 			break
+		elif es == 'del':
+			tmp = input("Please enter the word you want to delete: ")
+			del data[tmp]
+			continue
 		data[es] = {'proficiency': 0}
 		en = input("\033[1;37;40m The "+config["from"]+" meaning of "+es+": ").lower()
 		data[es]["EN"] = en
 		if len(data) % config["boxSize"] == 0:
-			print("\033[1;31;40m The list size just reached "+len(data)+".")
+			print("\033[1;31;40m The list size just reached "+str(len(data))+".")
 			while True:
 				quit = input("Are you going to continue adding vocabs(y/n)?: ").lower()
 				if quit == 'y':
