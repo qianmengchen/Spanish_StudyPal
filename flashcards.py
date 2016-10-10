@@ -10,9 +10,13 @@ with open("config.json", "r") as f:
 	config = json.load(f)
 
 def init():
+	data = {}
+	conjugation = {}
 	with open(config["vocabPath"], "r") as f:
 		data = json.load(f)
-		return data
+	with open(config["conjugationPath"], "r") as f:
+		conjugation = json.load(f)
+	return data, conjugation
 
 def update(data):
 	print("\033[1;37;40m Before adding another box of cards, I recommand you try \'status\' to know if it is now a good time to go on.")
@@ -169,15 +173,42 @@ def check_proficiency_rate(data):
 	print("medium_well: "+str(medium_well))
 	print("well_done: "+str(well_done))
 
+def practice(conjugation):
+	hints = {}
+	with open(config["conjugationHint"], "r") as f:
+		hints = json.load(f)
+	while(len(conjugation) > 0):
+		key = random.choice(list(conjugation.keys()))
+		toDel = []
+		for i in conjugation[key].keys():
+			if conjugation[key][i] == None:
+				toDel.append(i)
+		for i in toDel:
+			del conjugation[key][i]
+		while(len(conjugation[key]) > 0):
+			guess = random.choice(list(conjugation[key].keys()))
+			ans = input("The \""+hints[guess]+"\" conjugation for \""+key+"\" is: ")
+			if ans == conjugation[key][guess]:
+				print("Correct!")
+				del conjugation[key][guess]
+			elif ans.lower() == 'q':
+				return
+			else:
+				print("No! The answer is "+conjugation[key][guess])
+	print("You completed all the practices!")
+
+
 def main():
-	data = init()
-	print("\033[0m Actions:\n \'u\' or \'update\'\n \'r\' or \'review\'\n \'num\' to check the size of your vocab pool\n \'stats\' to know your current learning situation.")
+	data, conjugation = init()
+	print("\033[0m Actions:\n \'u\' or \'update\'\n \'r\' or \'review\'\n \'c\' or \'conjugation\'\n \'num\' to check the size of your vocab pool\n \'stats\' to know your current learning situation.")
 	print(" \'q\' to quit this program")
 	choice = input("Please enter your action: ").lower()
 	if choice == 'u' or choice == 'update':
 		data = update(data)
 	elif choice == 'r' or choice == 'review':
 		data = review(data)
+	elif choice == 'c' or choice == 'conjugation':
+		practice(conjugation)
 	elif choice == 'num':
 		print("\033[1;37;40m You currently have "+str(len(data))+" words in your vocabulary list.")
 	elif choice == 'stats':

@@ -1,5 +1,7 @@
 {
 	"vocabPath": "vocabulario.json",
+	"conjugationPath": "conjugation.json",
+	"conjugationHint": "AssociationTable.json",
 	"learning": "Spanish",
 	"from": "English",
 	"boxSize": 100,
